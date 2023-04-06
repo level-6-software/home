@@ -1,3 +1,8 @@
+<script lang="ts">
+    let isMobileNavOpen = false;
+
+</script>
+
 <div class="bg-white absolute w-full">
     <div class="z-0">
         <div id="bg-wrap">
@@ -28,7 +33,7 @@
             </a>
             </div>
             <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <button on:click={() => {isMobileNavOpen = true;}} type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
                 <span class="sr-only">Open main menu</span>
                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -48,6 +53,7 @@
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
             </div>
         </nav>
+        {#if isMobileNavOpen}
         <!-- Mobile menu, show/hide based on menu open state. -->
         <div class="lg:hidden" role="dialog" aria-modal="true">
             <!-- Background backdrop, show/hide based on slide-over state. -->
@@ -58,7 +64,7 @@
                 <span class="sr-only">Your Company</span>
                 <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
                 </a>
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                <button on:click={() => { isMobileNavOpen = false; }} type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
                 <span class="sr-only">Close menu</span>
                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -83,6 +89,7 @@
             </div>
             </div>
         </div>
+        {/if}
         </header>
     
         <div class="relative isolate pt-14">
