@@ -10,6 +10,10 @@
 
 </script>
 
+<svelte:head>
+    <title>Level 6 Software</title>
+</svelte:head>
+
 <div class="bg-white absolute w-full">
     <div class="z-0">
         <GlowingBalls />
@@ -42,22 +46,20 @@
         </div>
         
         </div>
+
+        <GridFeature />
+
+        <Testimonial />
+
+        <Faq />
+
+        <Stats />
+
+        <Team />
+
+        <Footer />
+
     </div>
-
-
-    <GridFeature />
-
-    <Testimonial />
-
-    <Faq />
-
-    <Stats />
-
-    <Team />
-
-    <Footer />
-
-
 
 </div>
 
