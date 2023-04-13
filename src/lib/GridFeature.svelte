@@ -1,4 +1,4 @@
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-white py-12">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:text-center">
         <h2 class="text-base font-semibold leading-7 text-indigo-600">Simpler E-Commerce</h2>

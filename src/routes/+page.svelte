@@ -7,7 +7,6 @@
 	import Stats from "../lib/Stats.svelte";
 	import Testimonial from "../lib/Testimonial.svelte";
 	import Faq from "../lib/FAQ.svelte";
-
 </script>
 
 <svelte:head>
@@ -25,7 +24,7 @@
     
         <div class="relative isolate pt-14">
        
-        <div class="py-24 sm:py-32 lg:pb-40">
+        <div class="py-12">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl text-center">
                 <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
@@ -33,8 +32,8 @@
                 </h1>
                 <p class="mt-6 text-lg leading-8 text-gray-600">We build the commerce platform. You run your store.</p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Contact Us</a>
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+                <a href="/contact" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Contact Us</a>
+                <a href="/about" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
                 </div>
             </div>
             <div class="mt-16 flow-root sm:mt-24">
@@ -48,10 +47,8 @@
         </div>
 
         <GridFeature />
-
+        
         <Testimonial />
-
-        <Faq />
 
         <Stats />
 
@@ -71,5 +68,4 @@
     backdrop-filter: blur(12.8px);
     -webkit-backdrop-filter: blur(12.8px);
 }
-
 </style>
