@@ -5,9 +5,12 @@
           <div class="lg:max-w-lg">
             <h2 class="text-base font-semibold leading-7 text-indigo-600">ecommerce</h2>
             <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A Custom Website Built To Suite You</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Whether your business is selling art, clothing, books etc, we'll work with you to come up with an ecommerce solution that fits your business.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">We create a website that includes home, shop, product overview, about, and contact pages. We can also create a special page, like a commission promo to fit your business.</p>
+            <p class="mt-6 text-md leading-7 text-gray-500">Currently our service does not include a CMS for you to build pages, and control page content yourself. We are working on creating this system to give you this functionality right now!</p>
+
             <div class="mt-8">
-              <a href="#" class="inline-flex rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+              <a href="pricing/" class="inline-flex rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
             </div>
             <figure class="mt-16 border-l border-gray-200 pl-8 text-gray-600">
               <blockquote class="text-base leading-7">
@@ -20,7 +23,11 @@
             </figure>
           </div>
         </div>
-        <img src="https://tailwindui.com/img/components/category-previews.01-with-image-backgrounds-xl.jpg" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0" width="2432" height="1442">
+        <div>
+          <p class="mt-6 text-md text-gray-500 mb-4">This is an example of what our basic styling looks like.</p>
+
+          <img src="https://tailwindui.com/img/components/category-previews.01-with-image-backgrounds-xl.jpg" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0" width="2432" height="1442">
+        </div>
       </div>
     </div>
   </div>
